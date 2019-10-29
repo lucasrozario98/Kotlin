@@ -12,8 +12,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -22,7 +22,7 @@
   </component>
   <component name="ProjectId" id="1SUOscuInR4OymcOVRqWV2hrsUT" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../codigos-master/Aula4" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PessoasCRUD" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />

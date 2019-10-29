@@ -8,8 +8,10 @@ fun main(args: Array<String>){
     var anoNascimento: Int
     var telefone: String
 
-    println("##### CRUD PESSOAS #####\n")
+    println("########################")
+    println("##### CRUD PESSOAS #####")
     do{
+        println("########################")
         println("1 - Cadastrar")
         println("2 - Remover")
         println("3 - Listar")
@@ -31,6 +33,7 @@ fun main(args: Array<String>){
                 println("Cadastro não realizado!!\n")
             }
 
+
         } else if (op == 2){
             println("\nRemovendo pessoas...")
             print("Digite o nome da pessoa para remove-la: ")
@@ -40,6 +43,8 @@ fun main(args: Array<String>){
             } else {
                 println("Pessoa não removida/Pessoa não encontrada!!\n")
             }
+
+
         } else if (op == 3){
             println("\nListando pessoas...")
             println(banco.listar())

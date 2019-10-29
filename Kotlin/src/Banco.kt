@@ -1,6 +1,6 @@
 class Banco {
 
-    var pessoas = arrayOfNulls<Pessoa>(10)
+    var pessoas = arrayOfNulls<Pessoa>(50)
 
     fun cadastrar(nome: String, anoNascimento: Int, telefone: String): Boolean {
         val p = Pessoa(nome, anoNascimento, telefone) //instanciacao
@@ -11,12 +11,11 @@ class Banco {
                 return true
             }
         }
-
         return false
     }
 
     fun listar(): String {
-        var str = "## PESSOAS ##"
+        var str = "##### PESSOAS #####"
         for (i in pessoas.indices) {
             if (pessoas[i] != null) {
                 str += "\n" + pessoas[i].toString()

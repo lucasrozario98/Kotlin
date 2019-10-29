@@ -1,5 +1,11 @@
 class Pessoa(val nome: String, val anoNascimento: Int, val telefone: String) {
 
+//    CONSTRUTOR SECUNDARIO
+//    constructor(nome: String, anoNascimento: Int) {
+//        this.nome = nome
+//        this.anoNascimento = anoNascimento
+//    }
+
 //    data class Pessoa(var nome: String, var anoNascimento: Int, var telefone: String)
 
     override fun toString(): String {
