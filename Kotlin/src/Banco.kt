@@ -3,7 +3,7 @@ class Banco {
     var pessoas = arrayOfNulls<Pessoa>(50)
 
     fun cadastrar(nome: String, anoNascimento: Int, telefone: String): Boolean {
-        val p = Pessoa(nome, anoNascimento, telefone) //instanciacao
+        var p = Pessoa(nome, anoNascimento, telefone) //instanciacao
 
         for (i in pessoas.indices) {
             if (pessoas[i] == null) {
@@ -34,7 +34,7 @@ class Banco {
     }
 
     fun remover(nome: String?): Boolean {
-//        val c = buscar(nome)
+//        var c = buscar(nome)
 //        return if (c != null) {
 //            c.remover(Pessoa)
 //        } else false

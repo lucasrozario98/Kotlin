@@ -21,12 +21,15 @@ fun main(args: Array<String>){
 
         if (op == 1){
             println("\nCadastrando pessoas..")
+//            print("Nome:")
+//            var nome= readLine()
             print("Nome:")
             nome = scan.next()
             print("Ano de Nascimento:")
             anoNascimento = scan.nextInt()
             print("Telefone:")
             telefone = scan.next()
+
             if (banco.cadastrar(nome, anoNascimento, telefone)) {
                 println("Cadastro realizado!!\n")
             } else {

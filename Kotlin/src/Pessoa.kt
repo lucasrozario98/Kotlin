@@ -1,4 +1,4 @@
-class Pessoa(val nome: String, val anoNascimento: Int, val telefone: String) {
+class Pessoa(var nome: String, var anoNascimento: Int, var telefone: String) {
 
 //    CONSTRUTOR SECUNDARIO
 //    constructor(nome: String, anoNascimento: Int) {
